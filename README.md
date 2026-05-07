@@ -4,7 +4,7 @@
 
 # Download
 git clone https://github.com/vt-hri/HW12.git
-cd HW12
+cd GameTheory
 
 # Create and source virtual environment
 # If you are using Mac or Conda, modify these two lines as shown in [HW0](https://github.com/vt-hri/HW0)
