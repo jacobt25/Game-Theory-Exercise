@@ -1,9 +1,3 @@
-# HW12
-
-Dylan Losey, Virginia Tech.
-
-In this homework assignment we will explore how to design training sets for robot learners.
-
 ## Install and Run
 
 ```bash
