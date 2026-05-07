@@ -1,0 +1,11 @@
+HRI HW12 - Takeshita
+5/3/2026
+
+The code works by generating a dataset of length four sets. Each dataset contains the x-y coords of a start position and a goal. Then the correct heading is solved and attached for data training.
+
+My strategy was to divide the space (-10 to 10 in x and y) into evenly spaced points. By iterating over each point as the home point and sub-iterating across every other point as goal points for that home point, I generate a data set where the robot is pointed in a variety of directions over various distances and positions. To further vary the data set and reduce redundancy, every home and goal point has a random jitter applied.
+
+While I was unable to get <1 error in 20 samples, I was able to get ~2.7 with 40 samples.
+I used a 3x3 point grid with a mod operator to filter out many of the points to keep my sample size lower.
+
+You want data that spans a lot of options that also isn't too random.
