@@ -20,14 +20,8 @@ pip install numpy torch matplotlib
 python main.py
 ```
 
-## Assignment
+## Goal
 
-You are given the code for a mobile robot that is learning to reach a goal.
+Code for a mobile robot that is learning to reach a goal.
 The robot is a point moving in an x-y plane, and the goal is static.
 We will leave the learning algorithm fixed: our goal is to design a minimal dataset that teaches the robot the task.
-Complete the following steps:
-
-1. Go through the pipeline of collecting data, training, and testing. Make sure you understand how the code functions.
-2. Focus on `main.py`. Think about what sorts of data would be "best" for teaching the task. Discuss those strategies with your peers.
-3. Design your own dataset. Can you reach <1 unit of average error with 20 or less demonstrations?
-4. Try to extract general principles for the data needed to teach the robot. What types of states are more informative than others?
